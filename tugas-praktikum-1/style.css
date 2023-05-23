@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(152, 255, 152);
+}
+.container {
+  background-color: rgb(85, 85, 255);
+  width: 80vw;
+  border-radius: 10px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 15px solid blue;
+}
+p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: yellow;
+}
+.deskripsi {
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.deskripsi p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.nama {
+  font-size: 20px;
+  background-color: yellow;
+  padding: 10px;
+  border: 3px solid black;
+}
+.nama a {
+  color: red;
+  text-decoration: none;
+}
+.nama a:hover {
+  color: rgb(0, 8, 255);
+  text-decoration: none;
+}
+.kuliah {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2px 60px;
+}

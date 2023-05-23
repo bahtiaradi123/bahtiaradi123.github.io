@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(54, 54, 54);
+    width: 100vw;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-left: 10px solid rgb(65, 155, 65);
+  border-radius: 15px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group.foto {
+  width: 200px;
+  height: auto;
+  background-color: blue;
+}
+.form-group.matkul{
+display: flex;
+flex-wrap: wrap;
+
+}
+.form-group.matkul label{
+display: flex;
+margin-right: 15px;
+
+}
+.form-group.foto img {
+  width: 100%;
+  height: auto;
+  background-color: blue;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='tel'],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
