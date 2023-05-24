@@ -1,0 +1,44 @@
+
+.myprofil {
+    border: 1px solid grey;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(117, 117, 235);
+    margin: 5px;
+}
+.myprofil .itms {
+    /* border: 1px solid grey; */
+    padding: 10px;
+    width: 45%;
+    border-radius: 15px;
+}
+.myprofil .foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 128);
+    border-radius: 5px;
+}
+.myprofil .foto img {
+    border: 8px solid white;
+}
+.myprofil .datadiri {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(201, 215, 247);
+}
+.myprofil .datadiri p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .myprofil .itms {
+        width: 100%;
+    }
+
+    
+}

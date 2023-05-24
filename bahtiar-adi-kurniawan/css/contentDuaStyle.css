@@ -1,0 +1,84 @@
+.content-dua {
+  /* border: 1px solid grey; */
+  padding: 5px;
+}
+.content-dua .card-doctor {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content-dua .card-doctor .doctor {
+    margin-bottom: 15px;
+}
+/* doctor 1 */
+.card-doctor .card-doctor1 {
+  /* border: 1px solid grey; */
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.card-doctor .card-doctor1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: blue;
+  font-weight: bolder;
+}
+.card-doctor .card-doctor1 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+  font-weight: bolder;
+}
+/* doctor 2 */
+.card-doctor .card-doctor2 {
+  /* border: 1px solid grey; */
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.card-doctor .card-doctor2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: blue;
+  font-weight: bolder;
+}
+.card-doctor .card-doctor2 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+  font-weight: bolder;
+}
+/* doctor 3 */
+.card-doctor .card-doctor3 {
+  /* border: 1px solid grey; */
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.card-doctor .card-doctor3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: blue;
+  font-weight: bolder;
+}
+.card-doctor .card-doctor3 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+  font-weight: bolder;
+}
